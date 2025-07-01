@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body>
+    <header class="bg-primary-500 fixed top-0 w-full border-b-primary-600 border-b-1">
+        <div class="wrapper flex justify-between items-center py-3 md:py-2.5">
+            <a href="#"><img src="assets/img/coral-logo.svg" class=" w-21 md:w-26"
+                    alt="logo coral, ir a la página de inicio "></a>
+            <nav>
+                <ul class="flex items-center gap-4">
+                    <li>
+                        <button aria-label="buscar en tus chats"
+                            class="bg-secondary-900 text-white cursor-pointer rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center"><img
+                                src="assets/img/icons/search.svg" class="w-6" alt=""></button>
+                    </li>
+                    <li>
+                        <button aria-label="abrir menu de usuario"
+                            class="bg-white rounded-[2.5rem] p-1 flex gap-2 items-center cursor-pointer"><img
+                                class="w-9 h-9 md:w-12 md:h-12" src="assets/img/user-image.png" alt=""><span
+                                class="hidden md:block">Paula</span> <img src="assets/img/icons/caret.svg"
+                                alt=""></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="bg-chat-background">
+        <section class="wrapper" id="chat" tabindex="0" aria-label="chat con coral">
+            <ul aria-live="polite" aria-atomic="false" aria-relevant="additions"
+                class="flex flex-col md:px-2 lg:px-24 pt-26 pb-34 ">
+                <li class="user-message-li text-brand-gray-800" aria-label="mensaje del usuario">
+                    <p class="bg-secondary-100 user-message-p">
+                        ¿Que aplicación médica diferencial tienen a día de hoy?
+                    </p>
+                </li>
+                <li class="coral-message-li text-brand-gray-800" aria-label="respuesta de coral">
+                    <span
+                        class="flex items-center justify-center border-1 border-brand-gray-200 shrink-0 rounded-full w-8 h-8 md:w-10 md:h-10"><img
+                            src="assets/img/icons/message-logo-icon.svg" alt=""></span>
+                    <section>
+                        <p class="mb-4">Se filtra y almacena en bolsas en una solución especial y luego se congela. Cuando la médula va a ser utilizada, esta se descongela y luego se coloca en la sangre del paciente a través de una vena. Las células madre se están utilizando en una variedad de tratamientos.</p>
+                        <p class="mb-4 font-medium">Detalles de la médula ósea:</p>
+                        <ul class="list-disc pl-5 mb-4">
+                            <li>Contiene células madre que pueden diferenciarse en diferentes tipos.</li>
+                            <li>Cuando la médula va a ser utilizada, esta se descongela y luego se coloca en la sangre</li>
+                            <li>Produce células sanguíneas (glóbulos rojos y plaquetas) a través de la hematopoyesis. </li>
+                        </ul>
+                        <div class="flex gap-3 py-1">
+                            <button aria-label="escuchar respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#audio"></use>
+                                </svg></button>
+                            <button aria-label="añadir respuesta a favoritas" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#fav"></use>
+                                </svg></button>
+                            <button aria-label="copiar el texto de la respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#copy"></use>
+                                </svg></button>
+                        </div>
+                    </section>
+                </li>
+                <li class="user-message-li text-brand-gray-800" aria-label="mensaje del usuario">
+                    <p class="bg-secondary-100 user-message-p">
+                        Explícame como funcionan las células madre
+                    </p>
+                </li>
+                <li class="coral-message-li text-brand-gray-800" aria-label="respuesta de coral">
+                    <span
+                        class="flex items-center justify-center border-1 border-brand-gray-200 shrink-0 rounded-full w-8 h-8 md:w-10 md:h-10"><img
+                            src="assets/img/icons/message-logo-icon.svg" alt=""></span>
+                    <section>
+                        <p class="mb-4">Son la materia prima del cuerpo especializadas con la capacidad de dividirse y renovarse por largos periodos, y también de diferenciarse en diferentes tipos de células especializadas, como células sanguíneas, musculares o nerviosas.</p>
+                        <p class="mb-4">Se encuentran en el embrión temprano y tienen la capacidad de generar cualquier tipo de  célula el cuerpo,  las células madre pueden cambiar a tipos de células específicas, como células sanguíneas en la médula ósea o células musculares en el músculo. </p>
+                        <a href="#"
+                            class="flex gap-2 items-center underline w-fit text-secondary-900 font-medium mb-4 transition-transform  hover:bg-primary-200 hover:px-2 hover:translate-x-2">
+                            <span>Revisa este esquema para entender los pasos <span><svg class="pl-1 inline w-6 h-6">
+                                        <use xlink:href="assets/sprite.svg#message-link"></use>
+                                    </svg></span>
+                            </span>
+                        </a>
+                        <div class="flex gap-3 py-1">
+                            <button aria-label="escuchar respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#audio"></use>
+                                </svg></button>
+                            <button aria-label="añadir respuesta a favoritas" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#fav"></use>
+                                </svg></button>
+                            <button aria-label="copiar el texto de la respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#copy"></use>
+                                </svg></button>
+                        </div>
+                    </section>
+                </li>
+                <li class="user-message-li text-brand-gray-800" aria-label="mensaje del usuario">
+                    <p class="bg-secondary-100 user-message-p">
+                        ¿Que aplicación médica diferencial tienen a día de hoy?
+                    </p>
+                </li>
+                <li class="coral-message-li text-brand-gray-800" aria-label="respuesta de coral">
+                    <span
+                        class="flex items-center justify-center border-1 border-brand-gray-200 shrink-0 rounded-full w-8 h-8 md:w-10 md:h-10"><img
+                            src="assets/img/icons/message-logo-icon.svg" alt=""></span>
+                    <section>
+                         <p class="mb-4">Se filtra y almacena en bolsas en una solución especial y luego se congela. Cuando la médula va a ser utilizada, esta se descongela y luego se coloca en la sangre del paciente a través de una vena. Las células madre se están utilizando en una variedad de tratamientos.</p>
+                        <p class="mb-4 font-medium">Detalles de la médula ósea:</p>
+                        <ul class="list-disc pl-5 mb-4">
+                            <li>Contiene células madre que pueden diferenciarse en diferentes tipos.</li>
+                            <li>Cuando la médula va a ser utilizada, esta se descongela y luego se coloca en la sangre</li>
+                            <li>Produce células sanguíneas (glóbulos rojos y plaquetas) a través de la hematopoyesis. </li>
+                        </ul>
+                        <picture class="block py-4">
+                            <source srcset="assets/img/image-mobile.webp" media="(max-width: 767px)" />
+                            <source srcset="assets/img/image-mobile.jpg" media="(max-width: 767px)" />
+                            <source srcset="assets/img/image-desktop.webp" media="(min-width: 768px)" />
+                            <source srcset="assets/img/image-desktop.jpg" media="(min-width: 768px)" />
+                            <img class="rounded-lg max-w-full md:max-w-105 lg:max-w-125"
+                                src="assets/img/image-desktop.jpg"
+                                alt="imagen de hongos silvestres rodeados de musgo"/>
+                        </picture>
+                        <div class="flex gap-3 py-1">
+                            <button aria-label="escuchar respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#audio"></use>
+                                </svg></button>
+                            <button aria-label="añadir respuesta a favoritas" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#fav"></use>
+                                </svg></button>
+                            <button aria-label="copiar el texto de la respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#copy"></use>
+                                </svg></button>
+                        </div>
+                    </section>
+                </li>
+                <li class="user-message-li text-brand-gray-800" aria-label="mensaje del usuario">
+                    <p class="bg-secondary-100 user-message-p">
+                        Me podrías explicar cuales son sus funciones principales
+                    </p>
+                </li>
+                <li class="coral-message-li text-brand-gray-800" aria-label="respuesta de coral">
+                    <span
+                        class="flex items-center justify-center border-1 border-brand-gray-200 shrink-0 rounded-full w-8 h-8 md:w-10 md:h-10"><img
+                            src="assets/img/icons/message-logo-icon.svg" alt=""></span>
+                    <section>
+                        <p class="mb-4">Son la materia prima del cuerpo especializadas con la capacidad de dividirse y renovarse por largos periodos, y también de diferenciarse en diferentes tipos de células especializadas, como células sanguíneas, musculares o nerviosas.</p>
+                        <p class="mb-4">Se encuentran en el embrión temprano y tienen la capacidad de generar cualquier tipo de  célula el cuerpo. las células madre pueden cambiar a tipos de células específicas, como células sanguíneasen la médula ósea o células musculares en el músculo.</p>
+                        <a href="#"
+                            class="flex gap-2 items-center underline w-fit text-secondary-900 font-medium mb-4 transition-transform  hover:bg-primary-200 hover:px-2 hover:translate-x-2">
+                            <span>Revisa este esquema para entender los pasos <span><svg class="pl-1 inline w-6 h-6">
+                                        <use xlink:href="assets/sprite.svg#message-link"></use>
+                                    </svg></span>
+                            </span>
+                        </a>
+                        <div class="flex gap-3 py-1">
+                            <button aria-label="escuchar respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#audio"></use>
+                                </svg></button>
+                            <button aria-label="añadir respuesta a favoritas" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#fav"></use>
+                                </svg></button>
+                            <button aria-label="copiar el texto de la respuesta" class="cursor-pointer"><svg class="w-6 h-6 text-brand-gray-400">
+                                    <use xlink:href="assets/sprite.svg#copy"></use>
+                                </svg></button>
+                        </div>
+                    </section>
+                </li>
+                <li class="user-message-li text-brand-gray-800" aria-label="mensaje del usuario">
+                    <p class="bg-secondary-100 user-message-p">
+                        ¿Que aplicación médica diferencial tienen?
+                    </p>
+                </li>
+                <li class="coral-message-li text-brand-gray-800" aria-label="respuesta de coral">
+                    <span
+                        class="flex items-center justify-center border-1 border-brand-gray-200 shrink-0 rounded-full w-8 h-8 md:w-10 md:h-10"><img
+                            src="assets/img/icons/message-logo-icon.svg" alt=""></span>
+                    <section>
+                        <div
+                            class="relative overflow-hidden rounded-full p-0.75 -mt-1 after:absolute after:content-[''] after:animate-rotate after:bg-(image:--brand-gradient) after:mb-4 after:aspect-square after:w-full after:top-1/2 after:left-1/2 after:-translate-1/2">
+                            <span
+                                class="relative z-10 flex w-full bg-chat-background text-brand-gray-700 rounded-full py-2 px-8">Generando respuesta ...</span>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+        </section>
+        <section aria-label="enviar archivo, audio o escribir una pregunta" tabindex="0" id="send-message"
+            class="fixed bottom-0 w-full after:content-none after:absolute z-10 after:w-full after:bottom-0 after:h-[calc(50%+1rem)] after:z-[-1]  after:bg-chat-background lg:after:bg-brand-text-area md:after:content-[''] md:px-6 lg:px-0">
+            <div
+                class="lg:relative w-full bottom-0 md:relative rounded-t-2xl md:rounded-full bg-brand-text-area px-4 pt-4 md:p-4 max-w-237 mx-auto md:mb-4">
+                <!--form -->
+                <form
+                    class="grid grid-rows-[auto] grid-cols-[auto_auto_1fr] md:grid-rows-1 md:grid-cols-[auto__auto_1fr_auto] gap-1 md:gap-2 items-center px-3 pt-2 pb-3 md:p-3 bg-white rounded-5 rounded-t-2xl md:rounded-full">
+                    <button type="button" class="cursor-pointer"><img class="w-8" src="assets/img/icons/attach.svg"
+                            alt="adjuntar archivo para que coral te lo explique"></span></button>
+                    <button type="button" class="cursor-pointer"><img class="w-8" src="assets/img/icons/mic.svg"
+                            alt="enviar pregunta como mensaje de voz"></button>
+                    <textarea name="textarea" aria-label="Escribe un mensaje" required placeholder="Preguntale a Coral"
+                        class="focus:outline-hidden placeholder:text-brand-gray-500 col-span-full row-start-1 row-end-2  md:col-auto md:row-start-auto md:row-end-auto field-sizing-content p-2 max-h-25 resize-none text-brand-gray-800"></textarea>
+                    <button type="submit" aria-label="enviar pregunta"
+                        class="justify-self-end rounded-2 cursor-pointer hover:saturate-150"><img class="w-12"
+                            src="assets/img/icons/send.svg" alt=""></button>
+                </form>
+                <!--end form -->
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
